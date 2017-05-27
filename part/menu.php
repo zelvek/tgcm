@@ -41,9 +41,9 @@
 			<h1 class="logo"><a href="index.php">TGCM</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
 			<a href="index.php">Taverne</a>
-			<a href="services.html">TV principale</a>
-			<a href="portfolio.html">Nos Streamer</a>
-			<a href="about.html">About</a>
+			<a href="index.php">TV principale</a>
+			<a href="index.php">Nos Streamer</a>
+			<a href="index.php">About</a>
 			<a href="#contact">Contact</a>
 			<a href="#"><i class="fa fa-facebook"></i></a>
 
