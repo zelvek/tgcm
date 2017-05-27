@@ -140,7 +140,7 @@
 				</div>
 				<div class="col-lg-3">
 					<h3>Tout est Amour</h3>
-					<p>Ici tout est paix et amourn sauf Lors de grande bataille à ce moment il n'y a plus aucun respect pour sont Adversaire</p>
+					<p>Ici tout est paix et amour sauf Lors de grande bataille à ce moment il n'y a plus aucun respect pour sont Adversaire</p>
 				</div>
 
 			</div><!-- row -->
