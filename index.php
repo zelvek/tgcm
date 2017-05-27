@@ -118,7 +118,7 @@
 
 				<!-- Srvice 4 -->
 				<div class="col-lg-1 centered">
-					<i class="fa fa-user"></i>
+					<i class="fa fa-users"></i>
 				</div>
 				<div class="col-lg-3">
 					<h3>Pour tout le Monde</h3>
@@ -127,7 +127,7 @@
 
 				<!-- Srvice 5 -->
 				<div class="col-lg-1 centered">
-					<i class="fa fa-cog"></i>
+					<i class="fa fa-video-camera"></i>
 				</div>
 				<div class="col-lg-3">
 					<h3> Des Emissions</h3>
