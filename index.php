@@ -29,14 +29,21 @@
         	var options = {
         		width: 854,
         		height: 480,
-        		channel: "root_updated",
+        		channel: "tgcmtv",
 
         	};
         	var player = new Twitch.Player("SamplePlayerDivID", options);
         	player.setVolume(0.5);
         </script>
 
+<?php
 
+//tgcmtv
+
+//mdp : tgcm2017
+
+
+ ?>
 
 			</div>
 			<div class="col-lg-3 col-lg-offset-1">
@@ -44,7 +51,7 @@
         <iframe class="div1" frameborder="0"
                 scrolling="no"
                 id="chat_embed"
-                src="https://www.twitch.tv/root_updated/chat"
+                src="https://www.twitch.tv/tgcmtv/chat"
                 height="500"
                 width="350"
                 scrolling= "yes">

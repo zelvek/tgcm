@@ -11,7 +11,7 @@
     <meta name="copyright" content="© Marcellin" />
 
     <title>TGCM</title>
-<meta name="description" content="Ta gueule c'est magique est une webtv jeux de role et actualité jeux de role, nous essayons de faire des lives de qualités avec du contenus supérieurs" />
+<meta name="description" content="Ta gueule c'est magique est une webtv jeux de role et actualité, nous essayons de faire des lives de qualités avec du contenus supérieurs" />
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
