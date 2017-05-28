@@ -190,13 +190,7 @@ $stream->execute();
 $stream = $stream->fetchAll(PDO::FETCH_ASSOC);
 echo $db->errorInfo()[2];
 
-
-
-
 if (count($stream)<3) {
-
-
-
 for ($i=0; $i < count($stream) ; $i++) {
 	echo "<div class=\"col-lg-4\">";
 	echo "<img class=\"ims\" src=\"".$stream[$i]["image"]."\" alt=\"Gianni\">";
@@ -207,14 +201,7 @@ for ($i=0; $i < count($stream) ; $i++) {
 	echo "	<p><a href=\"".$stream[$i]["twitter"]."\"><i class=\"fa fa-twitter\"></i></a><a href=\"mailto:".$stream[$i]["email_sec"]."\"><i class=\"fa fa-envelope\"></i></a></p>";
 	echo "</div>";
 	echo "</div>";}
-
-
-
 }else {
-
-
-
-
 for ($i=0; $i <3 ; $i++) {
 	echo "<div class=\"col-lg-4\">";
 	echo "<img class=\"ims\" src=\"".$stream[$i]["image"]."\" alt=\"Gianni\">";
@@ -226,18 +213,7 @@ for ($i=0; $i <3 ; $i++) {
 	echo "</div>";
 	echo "</div>";
 }
-
-
-
-
 }
-
-
-
-
-
-
-
 
  ?>
  </div></div>
@@ -267,7 +243,7 @@ height: 400px;
 			<div class="row">
 				<h3>Vous voulez nous soutenir ?</h3>
 				<div class="col-lg-8 col-lg-offset-2">
-					<p>Un petit don est toujours apprécié et nous servira à payer les serveurs et nous payer une bierre</p>
+					<p>Un petit don est toujours apprécié et nous servira à payer les serveurs et nous payer une bière</p>
 					<p><button type="button" class="btn btn-green btn-lg">Faire un Don</button></p>
 				</div>
 			</div><!-- row -->
