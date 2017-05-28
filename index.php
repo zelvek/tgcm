@@ -259,7 +259,7 @@ height: 400px;
 			</div><!-- col-lg-12 -->
 		</div><!-- row -->
 	</div><!-- container -->
-
+<h1>J'ne fé po de fôtes </h1>
 
 	<!-- SOCIAL FOOTER --->
 	<section id="contact"></section>
