@@ -252,7 +252,7 @@ height: 400px;
 </style>
 
 
-			
+
 
 
 
@@ -267,7 +267,7 @@ height: 400px;
 			<div class="row">
 				<h3>Vous voulez nous soutenir ?</h3>
 				<div class="col-lg-8 col-lg-offset-2">
-					<p>Un petit don est toujours apprécié et nous servira à payer les serveurs pour ainsi maintenir notre site web</p>
+					<p>Un petit don est toujours apprécié et nous servira à payer les serveurs et nous payer une bierre</p>
 					<p><button type="button" class="btn btn-green btn-lg">Faire un Don</button></p>
 				</div>
 			</div><!-- row -->
