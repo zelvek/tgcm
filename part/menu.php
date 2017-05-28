@@ -65,10 +65,10 @@
 			<a href="index.php">Nos Streamer</a>
 			<a href="index.php">About</a>
 			<a href="#contact">Contact</a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitch"></i></a>
 
 			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="connexion/index.php"><i class="fa fa-dribbble"></i></a>
+			<a href="connexion/index.php"><i class="fa fa-connectdevelop"></i></a>
 			<a href="#"><i class="fa fa-envelope"></i></a>
 
 		</div>

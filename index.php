@@ -235,13 +235,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 dg">
-					<p class="centered"><a href="#"><i class="fa fa-facebook"></i></a></p>
+					<p class="centered"><a href="#"><i class="fa fa-twitch"></i></a></p>
 				</div>
 				<div class="col-lg-4 lg">
 					<p class="centered"><a href="#"><i class="fa fa-twitter"></i></a></p>
 				</div>
 				<div class="col-lg-4 dg">
-					<p class="centered"><a href="#"><i class="fa fa-google-plus"></i></a></p>
+					<p class="centered"><a href="#"><i class="fa fa-youtube-play"></i></a></p>
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
