@@ -37,12 +37,9 @@
 <meta name="description" content="Ta gueule c'est magique est une webtv jeux de role et actualité, nous essayons de faire des lives de qualités avec du contenus supérieurs" />
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-
     <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -71,7 +68,7 @@
 			<a href="#"><i class="fa fa-facebook"></i></a>
 
 			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="connexion/index.php"><i class="fa fa-dribbble"></i></a>
 			<a href="#"><i class="fa fa-envelope"></i></a>
 
 		</div>
