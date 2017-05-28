@@ -171,36 +171,92 @@
 
 	<!-- TEAM MEMBERS -->
 	<div class="container">
-		<div class="row mt centered">
-			<div class="col-lg-4">
-				<img src="assets/img/team/gianni.png" alt="Gianni">
-				<div class="cardinfo">
-					<h4><b>GIANNI DI MARCO</b></h4>
-					<h6>ART DIRECTOR</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="#"><i class="fa fa-twitter"></i></a><a href="mailto:root_updated@outlook.com"><i class="fa fa-envelope"></i></a></p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<img src="assets/img/team/rebecca.png" alt="Rebecca">
-				<div class="cardinfo">
-					<h4><b>REBECCA ZEARING</b></h4>
-					<h6>DESIGN DIRECTOR</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
-				</div>
-			</div>
-      <div class="col-lg-4">
-				<img src="assets/img/team/william.png" alt="Gianni">
-				<div class="cardinfo">
-					<h4><b>WILLIAM SMITH</b></h4>
-					<h6>TEAM MANAGER</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
-				</div>
-			</div>
-		</div><!-- row -->
-	</div><!-- container -->
+<div class="row mt centered">
+<?php
+require "connexion/config.php";
+
+
+
+
+try {
+	$db = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER,DB_PWD );
+}catch(Exception $e){
+	die("Erreur SQL : ".$e->getMessage() );
+}
+
+$stream=$db->prepare("SELECT * FROM streamer");
+$stream->execute();
+
+$stream = $stream->fetchAll(PDO::FETCH_ASSOC);
+echo $db->errorInfo()[2];
+
+
+
+
+if (count($stream)<3) {
+
+
+
+for ($i=0; $i < count($stream) ; $i++) {
+	echo "<div class=\"col-lg-4\">";
+	echo "<img class=\"ims\" src=\"".$stream[$i]["image"]."\" alt=\"Gianni\">";
+	echo "<div class=\"cardinfo\">";
+	echo "<h4><b>".$stream[$i]["nom"]."</b></h4>";
+	echo "<h6>Streamer</h6>";
+	echo "<p>".$stream[$i]["description"]."</p>";
+	echo "	<p><a href=\"".$stream[$i]["twitter"]."\"><i class=\"fa fa-twitter\"></i></a><a href=\"mailto:".$stream[$i]["email_sec"]."\"><i class=\"fa fa-envelope\"></i></a></p>";
+	echo "</div>";
+	echo "</div>";}
+
+
+
+}else {
+
+
+
+
+for ($i=0; $i <3 ; $i++) {
+	echo "<div class=\"col-lg-4\">";
+	echo "<img class=\"ims\" src=\"".$stream[$i]["image"]."\" alt=\"Gianni\">";
+	echo "<div class=\"cardinfo\">";
+	echo "<h4><b>".$stream[$i]["nom"]."</b></h4>";
+	echo "<h6>Streamer</h6>";
+	echo "<p>".$stream[$i]["description"]."</p>";
+	echo "	<p><a href=\"".$stream[$i]["twitter"]."\"><i class=\"fa fa-twitter\"></i></a><a href=\"mailto:".$stream[$i]["email_sec"]."\"><i class=\"fa fa-envelope\"></i></a></p>";
+	echo "</div>";
+	echo "</div>";
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+ ?>
+ </div></div>
+<style media="screen">
+.ims{
+width: 243px;
+height: 400px;
+
+
+
+}
+</style>
+
+
+			
+
+
+
+</div><!-- container -->
 
 
 
