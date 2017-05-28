@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h2>Ta Gueule c'est Magique <br/>
+					<h2>Ta Gueule c'est Magique<br/>
 						La Taverne
 					</h2>
 				</div>
