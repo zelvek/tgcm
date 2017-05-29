@@ -33,7 +33,12 @@
 </head>
 
 <body>
-<?php require "indexmenu.php"; ?>
+<?php require "indexmenu.php";
+
+
+
+
+?>
 
             <!-- /.navbar-collapse -->
         </nav>
@@ -63,8 +68,9 @@
 
                 <!-- /.row -->
 
+
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title"><i class="fa fa-plus fa-fw"></i> Ajouter un streamer</h3>
@@ -125,68 +131,20 @@
 
 </form>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- /.row -->
 
+
+
+
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Donut Chart</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Changer ses données</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-donut-chart"></div>
@@ -198,7 +156,13 @@
                     </div>
 
 
+                    <?php
 
+
+
+
+
+                     ?>
 
 
 
