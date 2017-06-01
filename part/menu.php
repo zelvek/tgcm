@@ -28,7 +28,10 @@
     <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/classie.js"></script>
 
 
 

@@ -70,7 +70,7 @@
 
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title"><i class="fa fa-plus fa-fw"></i> Ajouter un streamer</h3>
@@ -107,7 +107,7 @@
 </tr>
 <tr>
   <td>twitch / youtube</td>
-  <td><input type="text" name="twitch" value="" placeholder="Twitch"></td>
+  <td><input type="text" name="twitch" value="" placeholder="le nom de votre chaine twitch"></td>
 </tr>
 
 <tr>
@@ -124,7 +124,7 @@
 </tr>
 
 <tr>
-  <td><input type="submit" class="btn btn-success" name="" value="Ajouter"></td>
+  <td><input type="submit" class="btn btn-success"  name="" value="Ajouter"></td>
 </tr>
 
   </table>
@@ -134,14 +134,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
+
+
                 <!-- /.row -->
 
 
 
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Changer ses données</h3>
@@ -155,7 +156,7 @@
                         </div>
                     </div>
 
-
+  </div>
                     <?php
 
 
