@@ -48,6 +48,7 @@
 			</div>
 			<div class="col-lg-3 col-lg-offset-1">
 
+
         <iframe class="div1" frameborder="0"
                 scrolling="no"
                 id="chat_embed"
@@ -76,7 +77,6 @@
 
 
 
-
 			  </div><!-- col-lg-8 -->
 
 
@@ -91,6 +91,8 @@
 				<!-- Srvice 1 -->
 				<div class="col-lg-1 centered">
 					<i class="fa fa-certificate"></i>
+
+
 
 				</div>
 				<div class="col-lg-3">
@@ -293,6 +295,6 @@ color: grey;
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  
+
   </body>
 </html>
